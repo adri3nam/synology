@@ -1,7 +1,7 @@
 {
-    "name": "zzarbi/synology",
+    "name": "adri3nam/synology",
     "description": "Synology API interface",
-    "homepage": "https://github.com/zzarbi/synology",
+    "homepage": "https://github.com/adri3nam/synology",
     "version": "1.0.0-dev",
     "keywords" : [
         "synology",
@@ -13,6 +13,9 @@
         {
             "name": "Nicolas Cerveaux",
             "email": "nicolas.cerveaux@gmail.com"
+        },
+        {
+            "name": "Adrien Namura",
         }
     ],
     "minimum-stability": "dev",
@@ -23,7 +26,7 @@
         "php": ">=5.3.0"
     },
     "support": {
-        "issues": "https://github.com/zzarbi/synology/issues"
+        "issues": "https://github.com/adri3nam/synology/issues"
     },
     "autoload": {
         "psr-0": {
