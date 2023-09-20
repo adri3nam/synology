@@ -95,7 +95,7 @@ class Synology_FileStation_Api extends Synology_Api_Authenticate
      */
     public function getList($path = '/home', $limit = 25, $offset = 0, $sortby = 'name', $sortdirection = 'asc', $pattern = '', $filetype = 'all', $additional = false)
     {
-        return $this->_request('List', 'entry.cgi', 'list_share', array(
+        return $this->_request('List', 'entry.cgi', 'list', array(
             'folder_path' => $path,
             'limit' => $limit,
             'offset' => $offset,
